@@ -6255,7 +6255,6 @@ havoc_stage:
       // switch (1) { // 强制选中case1（8位兴趣值替换）
 
       switch (op) { // 原代码：UR(15 + ((extras_cnt + a_extras_cnt) ? 2 : 0))
-
         case 0:
 
           /* Flip a single bit somewhere. Spooky! */

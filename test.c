@@ -4,7 +4,6 @@
 int main() {
     char buf[100];
     int len = fread(buf, 1, sizeof(buf), stdin);
-
     // 打印关键日志
     printf("[TEST] 输入长度：%d，内容（前32字节）：", len);
     for (int i=0; i<len && i<32; i++) {
